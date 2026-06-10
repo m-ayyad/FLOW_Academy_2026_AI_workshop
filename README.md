@@ -1,1 +1,1 @@
-# FLOW_Academy_2026_AI_workshop
+# FLOW Academy 2026 AI workshop
