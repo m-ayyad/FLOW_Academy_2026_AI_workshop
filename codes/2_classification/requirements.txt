@@ -1,0 +1,55 @@
+# ==============================================================================
+# River Ice Classification Workshop — Python Dependencies
+# Python 3.9 or newer is required.
+# ==============================================================================
+#
+# INSTALLATION
+# ------------
+# Step 1 — Install PyTorch (choose ONE command based on your hardware):
+#
+#   CPU only (works on any machine, training will be slower):
+#     pip install torch torchvision
+#
+#   NVIDIA GPU with CUDA 12.1 (recommended for faster training):
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+#   NVIDIA GPU with CUDA 11.8:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+#   Check https://pytorch.org/get-started/locally/ to find the right command
+#   for your specific OS and CUDA version.
+#
+# Step 2 — Install all other dependencies:
+#     pip install -r requirements.txt
+#
+# ==============================================================================
+
+# --- Deep learning core ---
+torch>=2.0.0
+torchvision>=0.15.0
+torchmetrics>=1.0.0
+torchsummary>=1.5.1
+
+# --- Image processing & augmentation ---
+opencv-python>=4.7.0
+albumentations>=1.3.0
+
+# --- Data loading utilities ---
+imutils>=0.5.4
+
+# --- Numerical & data science ---
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.1.0
+
+# --- Visualisation ---
+matplotlib>=3.6.0
+
+# --- Training progress bar ---
+tqdm>=4.64.0
+
+# --- Optional: pretty model architecture summary ---
+# torchsummary>=1.5.1
+
+# --- Notebook environment (skip if already installed) ---
+jupyterlab>=3.6.0
